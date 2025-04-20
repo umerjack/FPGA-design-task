@@ -61,15 +61,15 @@ module top_testbench;
     reg pass;
 
     initial begin
-        // === Define Predefined Values ===
-           predefined_values[0] = 8'd16;
-           predefined_values[1] = 8'd14;
-           predefined_values[2] = 8'd12;
-           predefined_values[3] = 8'd10;
-           predefined_values[4] = 8'd8;
-           predefined_values[5] = 8'd6;
-           predefined_values[6] = 8'd4;
-           predefined_values[7] = 8'd2;
+         // === Define Predefined Values ===
+    predefined_values[0] = 8'd90;
+    predefined_values[1] = 8'd25;
+    predefined_values[2] = 8'd60;
+    predefined_values[3] = 8'd15;
+    predefined_values[4] = 8'd30;
+    predefined_values[5] = 8'd75;
+    predefined_values[6] = 8'd45;
+    predefined_values[7] = 8'd10;
    
            // === Expected Sorted Result ==
            expected[0] = 8'd10;
