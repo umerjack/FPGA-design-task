@@ -1,0 +1,16 @@
+#
+# An unexpected error has occurred (11)
+#
+Stack:
+/home/umer-javed/viv/Vivado/2024.2/tps/lnx64/jre21.0.1_12/lib//server/libjvm.so(+0xe4f55c) [0x7ace5fe4f55c]
+/home/umer-javed/viv/Vivado/2024.2/tps/lnx64/jre21.0.1_12/lib//server/libjvm.so(JVM_handle_linux_signal+0x23e) [0x7ace5fe5002e]
+/lib/x86_64-linux-gnu/libc.so.6(+0x45330) [0x7ace9aa45330]
+/home/umer-javed/viv/Vivado/2024.2/lib/lnx64.o/libxv_wavedata.so(+0x2e1dcb) [0x7ace6ace1dcb]
+/home/umer-javed/viv/Vivado/2024.2/lib/lnx64.o/libxv_wavedata.so(SimBridge::DataObjMgr::findVisibleDataObj(SimBridge::BlockObj const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const+0xf0) [0x7ace6ad7d3e0]
+/home/umer-javed/viv/Vivado/2024.2/lib/lnx64.o/libxv_wavedata.so(SimBridge::DataObjMgr::getDataObj(SimBridge::BlockObj const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int*) const+0x560) [0x7ace6ad84cd0]
+/home/umer-javed/viv/Vivado/2024.2/lib/lnx64.o/libxv_wavedata.so(SimBridge::DataObjMgr::getDataObj(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int*) const+0x112) [0x7ace6ad84f32]
+/home/umer-javed/viv/Vivado/2024.2/lib/lnx64.o/libxv_wavedata.so(SimBridge::DataReader::getDataObj(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int*) const+0x5e) [0x7ace6adb731e]
+/home/umer-javed/viv/Vivado/2024.2/lib/lnx64.o/libxv_simdata_lib.so(RSDData::RSDCommonSimulationObject::getCodeTooltipValue(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, bool) const+0x6e) [0x7ace7db5291e]
+/home/umer-javed/viv/Vivado/2024.2/lib/lnx64.o/libxv_simdata_lib.so(RSDExecutive::getCodeTooltipValue(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, bool) const+0x7a) [0x7ace7db687ca]
+/home/umer-javed/viv/Vivado/2024.2/lib/lnx64.o/libxv_simdata.so(Java_ui_views_simulator_executive_simulationi_SimulationExecutive_1getCodeTooltipValue+0x1bb) [0x7ace9ccce59b]
+[0x7ace4fd0602e]

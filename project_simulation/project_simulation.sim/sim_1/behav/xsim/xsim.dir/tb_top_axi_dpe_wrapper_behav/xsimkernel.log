@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_top_axi_dpe_wrapper_behav/xsimk -simmode gui -wdb tb_top_axi_dpe_wrapper_behav.wdb -simrunnum 0 -socket 50327
+Design successfully loaded
+Design Loading Memory Usage: 550084 KB (Peak: 550084 KB)
+Design Loading CPU Usage: 2650 ms
+Simulation completed
+Simulation Memory Usage: 630656 KB (Peak: 689352 KB)
+Simulation CPU Usage: 3980 ms

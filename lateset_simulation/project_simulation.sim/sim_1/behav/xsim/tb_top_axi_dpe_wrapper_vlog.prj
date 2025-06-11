@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_simulation.gen/sources_1/ip/floating_point_2/sim/floating_point_2.v" \
+"../../../../project_simulation.gen/sources_1/ip/floating_point_1/sim/floating_point_1.v" \
+"../../../../project_simulation.gen/sources_1/ip/floating_point_3/sim/floating_point_3.v" \
+"../../../../project_simulation.gen/sources_1/ip/floating_point_0/sim/floating_point_0.v" \
+"../../../../project_simulation.srcs/sources_1/new/axi_dpe.v" \
+
+sv xil_defaultlib  \
+"../../../../project_simulation.srcs/sources_1/new/block_ram.sv" \
+"../../../../project_simulation.srcs/sources_1/new/dot_product_engine.sv" \
+"../../../../project_simulation.srcs/sources_1/new/intN_to_fp32_wrapper.sv" \
+"../../../../project_simulation.srcs/sources_1/new/top_axi_dpe_wrapper.sv" \
+"../../../../project_simulation.srcs/sources_1/new/top_dot_product_engine.sv" \
+"../../../../project_simulation.srcs/sim_1/new/tb_top_axi_dpe_wrapper.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

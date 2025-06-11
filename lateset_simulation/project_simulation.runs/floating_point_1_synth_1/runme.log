@@ -1,0 +1,27 @@
+
+*** Running vivado
+    with args -log floating_point_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source floating_point_1.tcl
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Wed Jun  4 13:32:32 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source floating_point_1.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/Desktop/hassan_ai/dpe_git/dpe_v1.3/dot_product_integration/ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/umer-javed/viv/Vivado/2024.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: floating_point_1
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 5a335bf37be3a01e to dir: /home/umer-javed/Music/dot_product/dot_product_sim/dot_product_sim.runs/floating_point_1_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/umer-javed/Music/dot_product/dot_product_sim/dot_product_sim.cache/ip/2024.2/5/a/5a335bf37be3a01e/floating_point_1_sim_netlist.v to /home/umer-javed/Music/dot_product/dot_product_sim/dot_product_sim.runs/floating_point_1_synth_1/floating_point_1_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/umer-javed/Music/dot_product/dot_product_sim/dot_product_sim.cache/ip/2024.2/5/a/5a335bf37be3a01e/floating_point_1.dcp to /home/umer-javed/Music/dot_product/dot_product_sim/dot_product_sim.runs/floating_point_1_synth_1/floating_point_1.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/umer-javed/Music/dot_product/dot_product_sim/dot_product_sim.cache/ip/2024.2/5/a/5a335bf37be3a01e/floating_point_1_stub.v to /home/umer-javed/Music/dot_product/dot_product_sim/dot_product_sim.runs/floating_point_1_synth_1/floating_point_1_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/umer-javed/Music/dot_product/dot_product_sim/dot_product_sim.cache/ip/2024.2/5/a/5a335bf37be3a01e/floating_point_1_stub.vhdl to /home/umer-javed/Music/dot_product/dot_product_sim/dot_product_sim.runs/floating_point_1_synth_1/floating_point_1_stub.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file /home/umer-javed/Music/dot_product/dot_product_sim/dot_product_sim.cache/ip/2024.2/5/a/5a335bf37be3a01e/floating_point_1_sim_netlist.vhdl to /home/umer-javed/Music/dot_product/dot_product_sim/dot_product_sim.runs/floating_point_1_synth_1/floating_point_1_sim_netlist.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP floating_point_1, cache-ID = 5a335bf37be3a01e.
+INFO: [Common 17-206] Exiting Vivado at Wed Jun  4 13:32:39 2025...

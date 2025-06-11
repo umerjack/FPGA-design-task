@@ -1,0 +1,604 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Jun 10 23:05:00 2025
+# Process ID         : 234931
+# Current directory  : /home/umer-javed/Pictures/upload/project_simulation
+# Command line       : vivado project_simulation.xpr
+# Log file           : /home/umer-javed/Pictures/upload/project_simulation/vivado.log
+# Journal file       : /home/umer-javed/Pictures/upload/project_simulation/vivado.jou
+# Running On         : umer-javed-HP-ProBook-650-G8-Notebook-PC
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.2 LTS
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i7-1185G7 @ 3.00GHz
+# CPU Frequency      : 4223.239 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 67095 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 75685 MB
+# Available Virtual  : 70501 MB
+#-----------------------------------------------------------
+start_gui
+open_project project_simulation.xpr
+WARNING: [Board 49-91] Board repository path '/home/umer-javed/.Xilinx/Vivado/2024.2/xhub/board_store/xilinx_board_store' does not exist, it will not be used to search board files.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /home/umer-javed/viv/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /home/umer-javed/viv/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /home/umer-javed/viv/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /home/umer-javed/viv/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at /home/umer-javed/viv/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /home/umer-javed/viv/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /home/umer-javed/viv/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at /home/umer-javed/viv/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /home/umer-javed/viv/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /home/umer-javed/viv/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /home/umer-javed/viv/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /home/umer-javed/viv/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /home/umer-javed/viv/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /home/umer-javed/viv/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /home/umer-javed/viv/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /home/umer-javed/viv/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /home/umer-javed/viv/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /home/umer-javed/viv/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /home/umer-javed/viv/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /home/umer-javed/viv/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-91] Board repository path '/home/umer-javed/.Xilinx/Vivado/2024.2/xhub/board_store/xilinx_board_store' does not exist, it will not be used to search board files.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory '/Desktop/hassan_ai/dpe_git/dpe_v1.3/dot_product_integration/ip'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/Desktop/hassan_ai/dpe_git/dpe_v1.3/dot_product_integration/ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/umer-javed/viv/Vivado/2024.2/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 8031.203 ; gain = 509.984 ; free physical = 49432 ; free virtual = 66226
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb_top_axi_dpe_wrapper'
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/umer-javed/Pictures/upload/project_simulation/project_simulation.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/home/umer-javed/viv/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File '/home/umer-javed/viv/Vivado/2024.2/data/xsim/xsim.ini' copied to run dir:'/home/umer-javed/Pictures/upload/project_simulation/project_simulation.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_top_axi_dpe_wrapper' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/umer-javed/Pictures/upload/project_simulation/project_simulation.sim/sim_1/behav/xsim'
+xvlog --incr --relax -L uvm -prj tb_top_axi_dpe_wrapper_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.gen/sources_1/ip/floating_point_2/sim/floating_point_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module floating_point_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.gen/sources_1/ip/floating_point_1/sim/floating_point_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module floating_point_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.gen/sources_1/ip/floating_point_3/sim/floating_point_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module floating_point_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.gen/sources_1/ip/floating_point_0/sim/floating_point_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module floating_point_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/axi_dpe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_dpe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module block_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/dot_product_engine.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dot_product_engine
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/intN_to_fp32_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module intN_to_fp32_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/top_axi_dpe_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_axi_dpe_wrapper
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/top_dot_product_engine.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_dot_product_engine
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sim_1/new/tb_top_axi_dpe_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top_axi_dpe_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+xvhdl --incr --relax -prj tb_top_axi_dpe_wrapper_vhdl.prj
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/umer-javed/Pictures/upload/project_simulation/project_simulation.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L xbip_utils_v3_0_14 -L axi_utils_v2_0_10 -L xbip_pipe_v3_0_10 -L xbip_dsp48_wrapper_v3_0_6 -L mult_gen_v12_0_22 -L floating_point_v7_1_19 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_axi_dpe_wrapper_behav xil_defaultlib.tb_top_axi_dpe_wrapper xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/umer-javed/viv/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L xbip_utils_v3_0_14 -L axi_utils_v2_0_10 -L xbip_pipe_v3_0_10 -L xbip_dsp48_wrapper_v3_0_6 -L mult_gen_v12_0_22 -L floating_point_v7_1_19 -L uvm -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_axi_dpe_wrapper_behav xil_defaultlib.tb_top_axi_dpe_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 128 differs from formal bit length 64 for port 'x_wr_en' [/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sim_1/new/tb_top_axi_dpe_wrapper.sv:89]
+WARNING: [VRFC 10-3705] select index 64 into 'x_wr_en' is out of bounds [/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/top_dot_product_engine.sv:32]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sources_1/new/block_ram.sv" Line 1. Module block_ram doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package floating_point_v7_1_19.floating_point_v7_1_19_viv_comp
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_14.xbip_utils_v3_0_14_pkg
+Compiling package axi_utils_v2_0_10.axi_utils_v2_0_10_pkg
+Compiling package floating_point_v7_1_19.floating_point_v7_1_19_consts
+Compiling package ieee.math_real
+Compiling package floating_point_v7_1_19.floating_point_v7_1_19_exp_table...
+Compiling package mult_gen_v12_0_22.mult_gen_v12_0_22_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package floating_point_v7_1_19.floating_point_v7_1_19_pkg
+Compiling package floating_point_v7_1_19.flt_utils
+Compiling package floating_point_v7_1_19.vt2mutils
+Compiling package floating_point_v7_1_19.vt2mcomps
+Compiling package unisim.vcomponents
+Compiling package xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv_comp
+Compiling package mult_gen_v12_0_22.dsp_pkg
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling module xil_defaultlib.block_ram
+Compiling architecture xilinx of entity axi_utils_v2_0_10.axi_slave_2to1 [\axi_slave_2to1(c_a_tdata_width=...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=32,length=0)\]
+Compiling architecture struct of entity floating_point_v7_1_19.carry_chain [\carry_chain(c_xdevicefamily="ki...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=4,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_19.norm_zero_det [\norm_zero_det(data_width=7,norm...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=4,length=0,fast_inp...]
+Compiling architecture rtl of entity floating_point_v7_1_19.mux4 [\mux4(c_xdevicefamily="kintexupl...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=2,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(length=0,fast_input=true)...]
+Compiling architecture rtl of entity floating_point_v7_1_19.mux4 [\mux4(c_xdevicefamily="kintexupl...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=8,length=0,fast_inp...]
+Compiling architecture struct of entity floating_point_v7_1_19.carry_chain [\carry_chain(c_xdevicefamily="ki...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_19.lead_zero_encode [\lead_zero_encode(c_xdevicefamil...]
+Compiling architecture rtl of entity floating_point_v7_1_19.shift_msb_first [\shift_msb_first(a_width=32,resu...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=8,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=12,length=0)\]
+Compiling architecture struct of entity floating_point_v7_1_19.carry_chain [\carry_chain(c_xdevicefamily="ki...]
+Compiling architecture struct of entity floating_point_v7_1_19.carry_chain [\carry_chain(c_xdevicefamily="ki...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=14,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=25,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=3,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=2,length=0,fast_inp...]
+Compiling architecture struct of entity floating_point_v7_1_19.carry_chain [\carry_chain(c_xdevicefamily="ki...]
+Compiling architecture rtl of entity floating_point_v7_1_19.flt_round_bit [\flt_round_bit(c_xdevicefamily="...]
+Compiling architecture rtl of entity floating_point_v7_1_19.renorm_and_round_logic [\renorm_and_round_logic(c_xdevic...]
+Compiling architecture synth of entity floating_point_v7_1_19.fix_to_flt_conv_exp [\fix_to_flt_conv_exp(c_xdevicefa...]
+Compiling architecture synth of entity floating_point_v7_1_19.flt_dec_op [\flt_dec_op(c_xdevicefamily="kin...]
+Compiling architecture struct of entity floating_point_v7_1_19.fix_to_flt_conv [\fix_to_flt_conv(c_xdevicefamily...]
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture xilinx of entity floating_point_v7_1_19.floating_point_v7_1_19_viv [\floating_point_v7_1_19_viv(c_xd...]
+Compiling architecture xilinx of entity floating_point_v7_1_19.floating_point_v7_1_19 [\floating_point_v7_1_19(c_xdevic...]
+Compiling module xil_defaultlib.floating_point_0
+Compiling architecture xilinx of entity axi_utils_v2_0_10.axi_slave_2to1 [\axi_slave_2to1(c_a_tdata_width=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=16,length=0)\]
+Compiling architecture struct of entity floating_point_v7_1_19.carry_chain [\carry_chain(c_xdevicefamily="ki...]
+Compiling architecture rtl of entity floating_point_v7_1_19.mux4 [\mux4(c_xdevicefamily="kintexupl...]
+Compiling architecture struct of entity floating_point_v7_1_19.carry_chain [\carry_chain(c_xdevicefamily="ki...]
+Compiling architecture rtl of entity floating_point_v7_1_19.lead_zero_encode [\lead_zero_encode(c_xdevicefamil...]
+Compiling architecture rtl of entity floating_point_v7_1_19.shift_msb_first [\shift_msb_first(a_width=16,resu...]
+Compiling architecture synth of entity floating_point_v7_1_19.fix_to_flt_conv_exp [\fix_to_flt_conv_exp(c_xdevicefa...]
+Compiling architecture struct of entity floating_point_v7_1_19.fix_to_flt_conv [\fix_to_flt_conv(c_xdevicefamily...]
+Compiling architecture xilinx of entity floating_point_v7_1_19.floating_point_v7_1_19_viv [\floating_point_v7_1_19_viv(c_xd...]
+Compiling architecture xilinx of entity floating_point_v7_1_19.floating_point_v7_1_19 [\floating_point_v7_1_19(c_xdevic...]
+Compiling module xil_defaultlib.floating_point_3
+Compiling module xil_defaultlib.intN_to_fp32_wrapper
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=26,length=0,fast_in...]
+Compiling architecture xilinx of entity mult_gen_v12_0_22.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_22.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_22.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_22.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture dsp48e2_v of entity unisim.DSP48E2 [\DSP48E2(acascreg=0,alumodereg=0...]
+Compiling architecture xilinx of entity mult_gen_v12_0_22.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture dsp48e2_v of entity unisim.DSP48E2 [\DSP48E2(acascreg=0,alumodereg=0...]
+Compiling architecture xilinx of entity mult_gen_v12_0_22.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_22.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_22.op_resize [\op_resize(ai_width=24,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_22.dsp [\dsp(c_xdevicefamily="kintexuplu...]
+Compiling architecture xilinx of entity mult_gen_v12_0_22.mult_gen_v12_0_22_viv [\mult_gen_v12_0_22_viv(c_verbosi...]
+Compiling architecture rtl of entity floating_point_v7_1_19.fix_mult_xx [\fix_mult_xx(c_xdevicefamily="ki...]
+Compiling architecture rtl of entity floating_point_v7_1_19.fix_mult [\fix_mult(c_xdevicefamily="kinte...]
+Compiling architecture struct of entity floating_point_v7_1_19.carry_chain [\carry_chain(c_xdevicefamily="ki...]
+Compiling architecture struct of entity floating_point_v7_1_19.carry_chain [\carry_chain(c_xdevicefamily="ki...]
+Compiling architecture synth of entity floating_point_v7_1_19.compare_eq_im [\compare_eq_im(c_xdevicefamily="...]
+Compiling architecture rtl of entity floating_point_v7_1_19.special_detect [\special_detect(c_xdevicefamily=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_latency...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [delay_default]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_latency...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=2,fast_input=true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_latency...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(fast_input=true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_latency...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=4,fast_input=true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_latency...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=8)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=3,length=0,fast_inp...]
+Compiling architecture rtl of entity floating_point_v7_1_19.flt_mult_exp [\flt_mult_exp(c_xdevicefamily="k...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=12,length=0,fast_in...]
+Compiling architecture struct of entity floating_point_v7_1_19.carry_chain [\carry_chain(c_xdevicefamily="ki...]
+Compiling architecture struct of entity floating_point_v7_1_19.carry_chain [\carry_chain(c_xdevicefamily="ki...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=25,length=0,fast_in...]
+Compiling architecture rtl of entity floating_point_v7_1_19.renorm_and_round_logic [\renorm_and_round_logic(c_xdevic...]
+Compiling architecture rtl of entity floating_point_v7_1_19.flt_mult_round [\flt_mult_round(c_xdevicefamily=...]
+Compiling architecture synth of entity floating_point_v7_1_19.flt_dec_op_lat [\flt_dec_op_lat(c_xdevicefamily=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.flt_mult [\flt_mult(c_xdevicefamily="kinte...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_latency...]
+Compiling architecture xilinx of entity floating_point_v7_1_19.floating_point_v7_1_19_viv [\floating_point_v7_1_19_viv(c_xd...]
+Compiling architecture xilinx of entity floating_point_v7_1_19.floating_point_v7_1_19 [\floating_point_v7_1_19(c_xdevic...]
+Compiling module xil_defaultlib.floating_point_1
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=7,length=0)\]
+Compiling architecture struct of entity floating_point_v7_1_19.carry_chain [\carry_chain(c_xdevicefamily="ki...]
+Compiling architecture synth of entity floating_point_v7_1_19.compare_eq_im [\compare_eq_im(c_xdevicefamily="...]
+Compiling architecture struct of entity floating_point_v7_1_19.carry_chain [\carry_chain(c_xdevicefamily="ki...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=24,length=0,fast_in...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,adreg=0,alum...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=48,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=24,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_19.dsp48e1_wrapper [\dsp48e1_wrapper(c_part="xcku5p-...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=13,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=27,length=0)\]
+Compiling architecture synth of entity floating_point_v7_1_19.align_add_dsp48e1_sgl [\align_add_dsp48e1_sgl(c_xdevice...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000000000000001111...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000000000000000000...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=5,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_19.lead_zero_encode_shift [\lead_zero_encode_shift(ab_fw=24...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111110010101001011...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00010001010111110000...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11101110101000001111...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_latency...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=2)\]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(adreg=0,alumodereg=0,ca...]
+Compiling architecture rtl of entity floating_point_v7_1_19.dsp48e1_wrapper [\dsp48e1_wrapper(a_width=24,c_wi...]
+Compiling architecture rtl of entity floating_point_v7_1_19.norm_and_round_dsp48e1_sgl [\norm_and_round_dsp48e1_sgl(c_mu...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10011001100110011001...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111111000000001111...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_has_ce=...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=9,length=0)\]
+Compiling architecture struct of entity floating_point_v7_1_19.carry_chain [\carry_chain(c_xdevicefamily="ki...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_latency...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=10)\]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture fde_v of entity unisim.FDE [fde_default]
+Compiling architecture struct of entity floating_point_v7_1_19.carry_chain [\carry_chain(c_xdevicefamily="ki...]
+Compiling architecture synth of entity floating_point_v7_1_19.compare_eq_im [\compare_eq_im(c_xdevicefamily="...]
+Compiling architecture rtl of entity floating_point_v7_1_19.special_detect [\special_detect(c_xdevicefamily=...]
+Compiling architecture struct of entity floating_point_v7_1_19.carry_chain [\carry_chain(c_xdevicefamily="ki...]
+Compiling architecture synth of entity floating_point_v7_1_19.compare_gt [\compare_gt(c_xdevicefamily="kin...]
+Compiling architecture synth of entity floating_point_v7_1_19.compare [\compare(c_xdevicefamily="kintex...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_latency...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=9)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_latency...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=2,length=2,fast_inp...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_latency...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(length=2,fast_input=true)...]
+Compiling architecture rtl of entity floating_point_v7_1_19.flt_add_exp_sp [\flt_add_exp_sp(c_xdevicefamily=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_latency...]
+Compiling architecture rtl of entity floating_point_v7_1_19.delay [\delay(width=23)\]
+Compiling architecture rtl of entity floating_point_v7_1_19.flt_add_dsp [\flt_add_dsp(c_xdevicefamily="ki...]
+Compiling architecture rtl of entity floating_point_v7_1_19.flt_add [\flt_add(c_xdevicefamily="kintex...]
+Compiling architecture synth of entity xbip_pipe_v3_0_10.xbip_pipe_v3_0_10_viv [\xbip_pipe_v3_0_10_viv(c_latency...]
+Compiling architecture xilinx of entity floating_point_v7_1_19.floating_point_v7_1_19_viv [\floating_point_v7_1_19_viv(c_xd...]
+Compiling architecture xilinx of entity floating_point_v7_1_19.floating_point_v7_1_19 [\floating_point_v7_1_19(c_xdevic...]
+Compiling module xil_defaultlib.floating_point_2
+Compiling module xil_defaultlib.dot_product_engine_default
+Compiling module xil_defaultlib.top_dot_product_engine_default
+Compiling module xil_defaultlib.axi_dpe(C_M_AXI_BURST_LEN=16)
+Compiling module xil_defaultlib.top_axi_dpe_wrapper
+Compiling module xil_defaultlib.tb_top_axi_dpe_wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_axi_dpe_wrapper_behav
+execute_script: Time (s): cpu = 00:03:47 ; elapsed = 00:01:02 . Memory (MB): peak = 8119.719 ; gain = 0.000 ; free physical = 49132 ; free virtual = 65944
+INFO: [USF-XSim-69] 'elaborate' step finished in '62' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/umer-javed/Pictures/upload/project_simulation/project_simulation.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_top_axi_dpe_wrapper_behav -key {Behavioral:sim_1:Functional:tb_top_axi_dpe_wrapper} -tclbatch {tb_top_axi_dpe_wrapper.tcl} -view {/home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sim_1/imports/dot_product_sim/tb_top_axi_dpe_wrapper_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config /home/umer-javed/Pictures/upload/project_simulation/project_simulation.srcs/sim_1/imports/dot_product_sim/tb_top_axi_dpe_wrapper_behav.wcfg
+source tb_top_axi_dpe_wrapper.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 8248.922 ; gain = 129.203 ; free physical = 48804 ; free virtual = 65649
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_top_axi_dpe_wrapper_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:03:57 ; elapsed = 00:01:11 . Memory (MB): peak = 8248.922 ; gain = 129.203 ; free physical = 48804 ; free virtual = 65649
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 630656 KB (Peak: 689352 KB), Simulation CPU Usage: 3980 ms
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 11 11:40:10 2025...

@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_axi_dpe_wrapper_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top_axi_dpe_wrapper" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,289.111 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,324.762 ns"></ZoomEndTime>
+      <Cursor1Time time="1,031.052 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="182"></NameColumnWidth>
+      <ValueColumnWidth column_width="64"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="60" />
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/rstn">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/axil_write_state">
+      <obj_property name="ElementShortName">axil_write_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axil_write_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/s_axi_awvalid">
+      <obj_property name="ElementShortName">s_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/s_axi_wvalid">
+      <obj_property name="ElementShortName">s_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/s_axi_awready_r">
+      <obj_property name="ElementShortName">s_axi_awready_r</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awready_r</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/s_axi_wready_r">
+      <obj_property name="ElementShortName">s_axi_wready_r</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wready_r</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/s_axi_awaddr">
+      <obj_property name="ElementShortName">s_axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/s_axi_wdata">
+      <obj_property name="ElementShortName">s_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/s_axi_bready">
+      <obj_property name="ElementShortName">s_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_bready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dma_source_addr">
+      <obj_property name="ElementShortName">dma_source_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dma_source_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dma_target_addr">
+      <obj_property name="ElementShortName">dma_target_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dma_target_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dma_length">
+      <obj_property name="ElementShortName">dma_length[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dma_length[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dma_start">
+      <obj_property name="ElementShortName">dma_start</obj_property>
+      <obj_property name="ObjectShortName">dma_start</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/x_wr_addr">
+      <obj_property name="ElementShortName">x_wr_addr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">x_wr_addr[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/x_wr_en">
+      <obj_property name="ElementShortName">x_wr_en[127:0]</obj_property>
+      <obj_property name="ObjectShortName">x_wr_en[127:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/x_wr_data">
+      <obj_property name="ElementShortName">x_wr_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x_wr_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group932">
+      <obj_property name="label">axi sigs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/s_axi_awvalid">
+         <obj_property name="ElementShortName">s_axi_awvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/s_axi_awready">
+         <obj_property name="ElementShortName">s_axi_awready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/s_axi_awaddr">
+         <obj_property name="ElementShortName">s_axi_awaddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awaddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/s_axi_awprot">
+         <obj_property name="ElementShortName">s_axi_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/s_axi_wvalid">
+         <obj_property name="ElementShortName">s_axi_wvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/s_axi_wready">
+         <obj_property name="ElementShortName">s_axi_wready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/s_axi_wdata">
+         <obj_property name="ElementShortName">s_axi_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/s_axi_wstrb">
+         <obj_property name="ElementShortName">s_axi_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/s_axi_bvalid">
+         <obj_property name="ElementShortName">s_axi_bvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/s_axi_bready">
+         <obj_property name="ElementShortName">s_axi_bready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/s_axi_bresp">
+         <obj_property name="ElementShortName">s_axi_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/s_axi_arvalid">
+         <obj_property name="ElementShortName">s_axi_arvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/s_axi_arready">
+         <obj_property name="ElementShortName">s_axi_arready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/s_axi_araddr">
+         <obj_property name="ElementShortName">s_axi_araddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_araddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/s_axi_arprot">
+         <obj_property name="ElementShortName">s_axi_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/s_axi_rvalid">
+         <obj_property name="ElementShortName">s_axi_rvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/s_axi_rready">
+         <obj_property name="ElementShortName">s_axi_rready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/s_axi_rdata">
+         <obj_property name="ElementShortName">s_axi_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/s_axi_rresp">
+         <obj_property name="ElementShortName">s_axi_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/m_axi_arvalid">
+         <obj_property name="ElementShortName">m_axi_arvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/m_axi_arready">
+         <obj_property name="ElementShortName">m_axi_arready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/m_axi_araddr">
+         <obj_property name="ElementShortName">m_axi_araddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_araddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/m_axi_arlen">
+         <obj_property name="ElementShortName">m_axi_arlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/m_axi_arsize">
+         <obj_property name="ElementShortName">m_axi_arsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/m_axi_arburst">
+         <obj_property name="ElementShortName">m_axi_arburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/m_axi_arprot">
+         <obj_property name="ElementShortName">m_axi_arprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/m_axi_arcache">
+         <obj_property name="ElementShortName">m_axi_arcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_arcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/m_axi_rvalid">
+         <obj_property name="ElementShortName">m_axi_rvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/m_axi_rready">
+         <obj_property name="ElementShortName">m_axi_rready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/m_axi_rdata">
+         <obj_property name="ElementShortName">m_axi_rdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/m_axi_rresp">
+         <obj_property name="ElementShortName">m_axi_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/m_axi_rlast">
+         <obj_property name="ElementShortName">m_axi_rlast</obj_property>
+         <obj_property name="ObjectShortName">m_axi_rlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/m_axi_awvalid">
+         <obj_property name="ElementShortName">m_axi_awvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/m_axi_awready">
+         <obj_property name="ElementShortName">m_axi_awready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/m_axi_awaddr">
+         <obj_property name="ElementShortName">m_axi_awaddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awaddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/m_axi_awlen">
+         <obj_property name="ElementShortName">m_axi_awlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/m_axi_awsize">
+         <obj_property name="ElementShortName">m_axi_awsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/m_axi_awburst">
+         <obj_property name="ElementShortName">m_axi_awburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/m_axi_awprot">
+         <obj_property name="ElementShortName">m_axi_awprot[2:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awprot[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/m_axi_awcache">
+         <obj_property name="ElementShortName">m_axi_awcache[3:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awcache[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/m_axi_wvalid">
+         <obj_property name="ElementShortName">m_axi_wvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/m_axi_wready">
+         <obj_property name="ElementShortName">m_axi_wready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/m_axi_wdata">
+         <obj_property name="ElementShortName">m_axi_wdata[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wdata[255:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/m_axi_wstrb">
+         <obj_property name="ElementShortName">m_axi_wstrb[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wstrb[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/m_axi_wlast">
+         <obj_property name="ElementShortName">m_axi_wlast</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wlast</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/m_axi_bvalid">
+         <obj_property name="ElementShortName">m_axi_bvalid</obj_property>
+         <obj_property name="ObjectShortName">m_axi_bvalid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/m_axi_bready">
+         <obj_property name="ElementShortName">m_axi_bready</obj_property>
+         <obj_property name="ObjectShortName">m_axi_bready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/m_axi_bresp">
+         <obj_property name="ElementShortName">m_axi_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_bresp[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dpe_data_type">
+      <obj_property name="ElementShortName">dpe_data_type[2:0]</obj_property>
+      <obj_property name="ObjectShortName">dpe_data_type[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dma_state">
+      <obj_property name="ElementShortName">dma_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dma_state[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/m_axi_rvalid">
+      <obj_property name="ElementShortName">m_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/m_axi_rdata">
+      <obj_property name="ElementShortName">m_axi_rdata[255:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rdata[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_data">
+      <obj_property name="ElementShortName">dpe_data[255:0]</obj_property>
+      <obj_property name="ObjectShortName">dpe_data[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/rx_data_reg">
+      <obj_property name="ElementShortName">rx_data_reg[255:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data_reg[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/m_axi_rready_r">
+      <obj_property name="ElementShortName">m_axi_rready_r</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rready_r</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_valid">
+      <obj_property name="ElementShortName">dpe_valid</obj_property>
+      <obj_property name="ObjectShortName">dpe_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/m_axi_arvalid_r">
+      <obj_property name="ElementShortName">m_axi_arvalid_r</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arvalid_r</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/m_axi_rvalid">
+      <obj_property name="ElementShortName">m_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rvalid</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/m_axi_rready_r">
+      <obj_property name="ElementShortName">m_axi_rready_r</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rready_r</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/m_axi_arready">
+      <obj_property name="ElementShortName">m_axi_arready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_arready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/m_axi_rvalid">
+      <obj_property name="ElementShortName">m_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/m_axi_rready">
+      <obj_property name="ElementShortName">m_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rready</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group94">
+      <obj_property name="label">Accumulator</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/transfer_count">
+      <obj_property name="ElementShortName">transfer_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">transfer_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dma_length">
+      <obj_property name="ElementShortName">dma_length[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dma_length[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dma_state">
+      <obj_property name="ElementShortName">dma_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dma_state[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_done">
+      <obj_property name="ElementShortName">dpe_done</obj_property>
+      <obj_property name="ObjectShortName">dpe_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/m_axi_awready">
+      <obj_property name="ElementShortName">m_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/m_axi_awready">
+      <obj_property name="ElementShortName">m_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/m_axi_awvalid_r">
+      <obj_property name="ElementShortName">m_axi_awvalid_r</obj_property>
+      <obj_property name="ObjectShortName">m_axi_awvalid_r</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/m_axi_rvalid">
+      <obj_property name="ElementShortName">m_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rvalid</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/m_axi_rdata">
+      <obj_property name="ElementShortName">m_axi_rdata[255:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rdata[255:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/j">
+      <obj_property name="ElementShortName">j[6:0]</obj_property>
+      <obj_property name="ObjectShortName">j[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/m_axi_rlast">
+      <obj_property name="ElementShortName">m_axi_rlast</obj_property>
+      <obj_property name="ObjectShortName">m_axi_rlast</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group948">
+      <obj_property name="label">dpe_top sigs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/data_type">
+         <obj_property name="ElementShortName">data_type[2:0]</obj_property>
+         <obj_property name="ObjectShortName">data_type[2:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/data_type">
+         <obj_property name="ElementShortName">data_type[2:0]</obj_property>
+         <obj_property name="ObjectShortName">data_type[2:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_start">
+         <obj_property name="ElementShortName">dpe_start</obj_property>
+         <obj_property name="ObjectShortName">dpe_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/A_valid">
+         <obj_property name="ElementShortName">A_valid</obj_property>
+         <obj_property name="ObjectShortName">A_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/A_data">
+         <obj_property name="ElementShortName">A_data[255:0]</obj_property>
+         <obj_property name="ObjectShortName">A_data[255:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/y_out">
+         <obj_property name="ElementShortName">y_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">y_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_done">
+         <obj_property name="ElementShortName">dpe_done</obj_property>
+         <obj_property name="ObjectShortName">dpe_done</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group121">
+      <obj_property name="label">DPE Accumulation</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dpe_done">
+         <obj_property name="ElementShortName">dpe_done</obj_property>
+         <obj_property name="ObjectShortName">dpe_done</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/y_out">
+         <obj_property name="ElementShortName">y_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">y_out[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_accumulator">
+         <obj_property name="ElementShortName">dpe_accumulator[255:0]</obj_property>
+         <obj_property name="ObjectShortName">dpe_accumulator[255:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_count">
+         <obj_property name="ElementShortName">dpe_count[2:0]</obj_property>
+         <obj_property name="ObjectShortName">dpe_count[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/write_valid">
+         <obj_property name="ElementShortName">write_valid</obj_property>
+         <obj_property name="ObjectShortName">write_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/write_fifo">
+         <obj_property name="ElementShortName">write_fifo[255:0]</obj_property>
+         <obj_property name="ObjectShortName">write_fifo[255:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group123">
+      <obj_property name="label">DMA_WRITE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dma_write_state">
+         <obj_property name="ElementShortName">dma_write_state[3:0]</obj_property>
+         <obj_property name="ObjectShortName">dma_write_state[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/m_axi_awaddr_r">
+         <obj_property name="ElementShortName">m_axi_awaddr_r[31:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_awaddr_r[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/write_offset">
+         <obj_property name="ElementShortName">write_offset[31:0]</obj_property>
+         <obj_property name="ObjectShortName">write_offset[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/m_axi_wvalid_r">
+         <obj_property name="ElementShortName">m_axi_wvalid_r</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wvalid_r</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/m_axi_wdata_r">
+         <obj_property name="ElementShortName">m_axi_wdata_r[255:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_wdata_r[255:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF0000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1307">
+      <obj_property name="label">data_tpye_converion_out</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/dpe_inst/A_fp32">
+         <obj_property name="ElementShortName">A_fp32[0:127][31:0]</obj_property>
+         <obj_property name="ObjectShortName">A_fp32[0:127][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/dpe_inst/A_valid">
+         <obj_property name="ElementShortName">A_valid[0:127]</obj_property>
+         <obj_property name="ObjectShortName">A_valid[0:127]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1436">
+      <obj_property name="label">Mul_out</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/dpe_inst/prod_fp32">
+         <obj_property name="ElementShortName">prod_fp32[0:127][31:0]</obj_property>
+         <obj_property name="ObjectShortName">prod_fp32[0:127][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/dpe_inst/prod_valid">
+         <obj_property name="ElementShortName">prod_valid[0:127]</obj_property>
+         <obj_property name="ObjectShortName">prod_valid[0:127]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1437">
+      <obj_property name="label">ADD_stage0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/dpe_inst/sum_stage0">
+         <obj_property name="ElementShortName">sum_stage0[0:127][31:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_stage0[0:127][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/dpe_inst/valid_stage0">
+         <obj_property name="ElementShortName">valid_stage0[0:127]</obj_property>
+         <obj_property name="ObjectShortName">valid_stage0[0:127]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1438">
+      <obj_property name="label">ADD_stage1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/dpe_inst/sum_stage1">
+         <obj_property name="ElementShortName">sum_stage1[0:63][31:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_stage1[0:63][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/dpe_inst/valid_stage1">
+         <obj_property name="ElementShortName">valid_stage1[0:63]</obj_property>
+         <obj_property name="ObjectShortName">valid_stage1[0:63]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1439">
+      <obj_property name="label">ADD_stage2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/dpe_inst/sum_stage2">
+         <obj_property name="ElementShortName">sum_stage2[0:31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_stage2[0:31][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/dpe_inst/valid_stage2">
+         <obj_property name="ElementShortName">valid_stage2[0:31]</obj_property>
+         <obj_property name="ObjectShortName">valid_stage2[0:31]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1440">
+      <obj_property name="label">ADD_stage3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/dpe_inst/sum_stage3">
+         <obj_property name="ElementShortName">sum_stage3[0:15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_stage3[0:15][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/dpe_inst/valid_stage3">
+         <obj_property name="ElementShortName">valid_stage3[0:15]</obj_property>
+         <obj_property name="ObjectShortName">valid_stage3[0:15]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1441">
+      <obj_property name="label">ADD_stage4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/dpe_inst/sum_stage4">
+         <obj_property name="ElementShortName">sum_stage4[0:7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_stage4[0:7][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/dpe_inst/valid_stage4">
+         <obj_property name="ElementShortName">valid_stage4[0:7]</obj_property>
+         <obj_property name="ObjectShortName">valid_stage4[0:7]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1442">
+      <obj_property name="label">ADD_stage5</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/dpe_inst/sum_stage5">
+         <obj_property name="ElementShortName">sum_stage5[0:3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_stage5[0:3][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/dpe_inst/valid_stage5">
+         <obj_property name="ElementShortName">valid_stage5[0:3]</obj_property>
+         <obj_property name="ObjectShortName">valid_stage5[0:3]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1443">
+      <obj_property name="label">ADD_stage6</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/dpe_inst/sum_stage6">
+         <obj_property name="ElementShortName">sum_stage6[0:1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">sum_stage6[0:1][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/dpe_inst/valid_stage6">
+         <obj_property name="ElementShortName">valid_stage6[0:1]</obj_property>
+         <obj_property name="ObjectShortName">valid_stage6[0:1]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1446">
+      <obj_property name="label">final adder_out</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/dpe_inst/done">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top_axi_dpe_wrapper/dut/dma_inst/dpe_top_inst/dpe_inst/y_out">
+         <obj_property name="ElementShortName">y_out[31:0]</obj_property>
+         <obj_property name="ObjectShortName">y_out[31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
